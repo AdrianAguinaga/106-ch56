@@ -8,6 +8,7 @@ function init()
 {
     console.log("Hello im the init");
     sayHello();
+    //just something
 
 }
 
