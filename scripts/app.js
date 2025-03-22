@@ -1,15 +1,14 @@
 function sayHello()
 {
-    console.log("Hello there!")
+    console.log("Hello there!");
+    
 }
-
 
 function init()
 {
     console.log("Hello im the init");
+    let toy="its mine";
     sayHello();
-    //just something
-    //just an example
 
 }
 
