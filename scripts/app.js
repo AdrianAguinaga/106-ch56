@@ -1,14 +1,16 @@
-function sayHello()
+
+function saveTask()
 {
-    console.log("Hello there!");
-    
+    console.log("saveTask is running");
 }
 
 function init()
 {
-    console.log("Hello im the init");
-    let toy="its mine";
-    sayHello();
+    console.log("the init its running");
+    //load data
+
+    //hook events
+    $("#btnSave").click(saveTask);    
 
 }
 
