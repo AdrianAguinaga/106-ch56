@@ -1,29 +1,20 @@
 main {
     display: flex;
-<<<<<<< HEAD
     /* height:calc(100vh - 32px); */
     height: 100vh;
     padding: 24px;
     border-radius: 24px;
-=======
-    height:calc(100vh - 32px);
->>>>>>> a262088b6a4e8bebcba38188300ce823341bc4c8
 }
 
 #list{
    
     background-color: aquamarine;
-<<<<<<< HEAD
     flex: 6;    
     padding: 24px;
-=======
-    flex: 6;
->>>>>>> a262088b6a4e8bebcba38188300ce823341bc4c8
 }
 #form{
     background-color: beige;
     flex: 6;
-<<<<<<< HEAD
     padding: 24px;
 }
 
@@ -84,9 +75,5 @@ main {
 
 
 
-=======
-    
-}
->>>>>>> a262088b6a4e8bebcba38188300ce823341bc4c8
 /* i need to cover the entire screen with the
 background color */
