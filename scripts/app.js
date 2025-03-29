@@ -2,6 +2,7 @@
 function saveTask()
 {
     console.log("saveTask is running");
+<<<<<<< HEAD
     
     // Get values from form fields
     const title = $("#txtTitle").val();
@@ -40,12 +41,20 @@ function displayTask(task){
     `
 
     $("#list").append(syntax);
+=======
+>>>>>>> a262088b6a4e8bebcba38188300ce823341bc4c8
 }
 
 function init()
 {
     console.log("the init its running");
     //load data
+<<<<<<< HEAD
+=======
+
+    //hook events
+    $("#btnSave").click(saveTask);    
+>>>>>>> a262088b6a4e8bebcba38188300ce823341bc4c8
 
     //hook events
     $("#btnSave").click(saveTask);    
